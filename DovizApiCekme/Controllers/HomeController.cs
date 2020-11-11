@@ -22,7 +22,6 @@ namespace DovizApiCekme.Controllers
             if (Curlist == null)
                 return null;
 
-
             return View(Curlist.ToList());
         }
     }
